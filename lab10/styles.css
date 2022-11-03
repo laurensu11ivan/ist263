@@ -8,17 +8,39 @@ body{
 }
 
  h1, h2 {
-  color: #FCE700;;
+  color: #FCE700;
 }
+
 nav{
     background-color:#4700D8;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 30px;
+   
 }
+@media only sceren and (max-width: 600px) 
+{nav a { display:block
+
+}
+}
+
+@media only sceren and (min-width: 600px) 
+{nav a { display:inline
+
+}
+}
+@media only screen and (min-width: 600px)
+{
+    span{display:none
+
+    }
+}
+
 nav a{
     color: #00F5FF;
 }
 nav a:hover
  {background-color: #b120b6}
+
+ 
 
 

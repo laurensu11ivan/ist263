@@ -5,12 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
     
-            .row1, .row2 {margin:10px; background-color:pink;border-radius:1em;}
+            .row1, .row2 {margin:10px; background-color:pink;border-radius:1em;
+            flex-wrap:wrap;}
         
-            .flex1 {flex: 1}
-            .link {flex: 1}
-            .flex2 {flex: 1}
-            .flex3 {flex: 1}
+            .flex1 {flex: 1; flex-wrap:wrap;}
+            .link {flex: 1;flex-wrap:wrap;}
+            .flex2 {flex: 1; flex-wrap:wrap;}
+            .flex3 {flex: 1;flex-wrap:wrap;}
+
+            .map{flex-wrap:wrap;}
             
 
             .row2{
@@ -27,9 +30,9 @@
 
     <body>
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="skills.html">Skills</a> |
-            <a href="contact.html">Contact</a> |
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="skills.html">Skills</a> <span>|</span>
+            <a href="contact.html">Contact</a> <span>|</span>
         </nav>
         <h1>Contact</h1>
         <div class="row1">
@@ -46,7 +49,7 @@
 
 <div class="row2">
             <div class="flex2">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.0276226153646!2d-71.05042792008828!3d42.57593617927493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e30dd51f82a3a5%3A0x8ba571d8bed48871!2s15%20MacIntyre%20Dr%2C%20North%20Reading%2C%20MA%2001864!5e0!3m2!1sen!2sus!4v1663255347731!5m2!1sen!2sus" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2938.0276226153646!2d-71.05042792008828!3d42.57593617927493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e30dd51f82a3a5%3A0x8ba571d8bed48871!2s15%20MacIntyre%20Dr%2C%20North%20Reading%2C%20MA%2001864!5e0!3m2!1sen!2sus!4v1663255347731!5m2!1sen!2sus" class= "map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         <div class="flex3">
             <form action="https://formspree.io/f/xpzndwvp" method="POST">
