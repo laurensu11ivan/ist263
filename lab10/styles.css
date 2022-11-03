@@ -13,27 +13,16 @@ body{
 
 nav{
     background-color:#4700D8;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 30px;
-   
 }
+
 @media only sceren and (max-width: 600px) 
-{nav a { display:block
+{nav a { display:block;}
+span{display:none;}
+}
 
-}
-}
 
-@media only sceren and (min-width: 600px) 
-{nav a { display:inline
-
-}
-}
-@media only screen and (min-width: 600px)
-{
-    span{display:none
-
-    }
-}
 
 nav a{
     color: #00F5FF;
