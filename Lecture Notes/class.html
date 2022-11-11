@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .welcome{
+            display: flex;
+            justify-content: center;
+        }
+        .skip{ 
+            background-color: #ffa500;
+            padding: 5px;
+            border: 1px solid black;
+            position: absolute; 
+            top: 30px;
+            left: -999px; /* pushes it off screen */
+        }
+        /* focus is a psudeo class */
+        .skip:focus {
+            left:10px;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#content" class="skip">Skip to Content</a> <br>
+   <a href="http://www.syr.edu" tabindex="3"> Syracuse U.</a> <br>
+   <a href="http://www.google.com" tabindex="2"> Google</a> <br>
+   <a href="http://www.amazon.com" tabindex="1"> Amazon</a> <br>
+   <div class="welcome"> Hello World</div>
+   <p id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit molestias maxime doloribus possimus harum labore dicta ab sed fugiat inventore velit repellat animi voluptate, iusto suscipit odio minus dolores. Consequatur?</p>
+
+</body>
+</html>
