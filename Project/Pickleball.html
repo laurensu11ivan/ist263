@@ -6,7 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      h1, header{
+        text-align: center;
+      }
+      aside { display: block;
+            width: 60px;
+            position: fixed;
+            top: 50px; 
+            padding-left: 10px;
+            background-color: #c6f6c6;
+            border-radius:5px;
+            justify-content: space-around;
+      }
+      .kitchen {
+        float: right;
+        margin: 20px
+      }
+        .clear{
+clear:both;
+        }
       
+      .testTom {
+        flex: 1;
+        margin-right: 20px
+      }
+      .testMark {
+        flex: 2;
+        display: right;
+        margin-left: 20px
+      }
     </style>
     <link rel="stylesheet" href="styles.css">
    
@@ -14,21 +42,25 @@
 <body>
     
 <h1>All about Pickleball!</h1>
-<header> <img src="./Images/Courts.jpeg" alt= "My Photo"> </header>
-<nav>
-   Menu
-  <a href="Pickleball.html">Home</a> |
-    <a href="Howtopay.html">Skills</a> |
-    <a href="Wheretoplay.html">Contact</a> |
-</nav>
+<header> <img src="./Images/Courts.jpeg" alt= "Ariel view of pickle ball courts" class="center"> </header>
+
+<aside>
+  <b>Menu</b> 
+ <a href="Pickleball.html">Home</a>
+<a href="Howtopay.html">Skills</a>
+<a href="Wheretoplay.html">Contact</a>
+</aside>
+
 <h2>Objective of the Game:</h2>
 <ul>
-    <li>smack a ball over the net until they win the point when the opponent cannot return it</li>
+    <li>Smack a ball over the net until they win the point when the opponent cannot return it</li>
     <li>Pickleball is a sport that combines tennis, badminton, and ping-pong. It is plated with a paddle and a plastic ball with holes that looks similar to a wiffle ball. It is played indoor or outdoor, singles or doubles and guarantees a game of fun!</li>
     <li>The court is a tennis court with a no volley vote that is 7’ behind the net. This is also called the “kitchen”.</li>
     </ul>
 
-    
+    <div class="clear"></div>
+
+    <img src="./Images/Diagram.png" alt= "Diagram of court showing the kitchen closest to the net" class="kitchen" width="300" height="200"> 
 
     <h3>Background:</h3>
     <ul>
@@ -36,14 +68,18 @@
     
     <li>In 2003 there were 39 known places to play in North America listed on the Pickleball stuff website. These were in 10 states, and 150 individual courts. In 2015 there was 12,800 nationwide courts to play on. In 2019 it was declared the fastest growing sports in the U.S as participants reached 3.3 million. In 2021, it grew to 4.8 million players in the US.</li>
     </ul>
+
 <h4>Testimonials</h4>
+<div class="testMark" >
 I am 88 years old, have two artificial knees, two artificial hips, have been playing 4 years, and I love the game. I played tennis for decades, but I lost all my partners when they died or went to retirement homes. Since pickleball is played on much smaller courts than tennis, I can still maneuver to hit the ball. – Tom
 
 <img src="./Images/Testimonials.jpeg" alt= "Mark">
+</div>
 
-
+<div class="testTom">
 I was originally told that Pickleball was a great way to get my father-in-law out and active with other athletic seniors. After my first time out, I was instantly addicted and find myself playing about 3+ times per week. I have since introduced it to my wife, daughter (11 yrs old) and a few of my friends. This has been a great sport to learn with my wife, daughter and father-in-law. Everyone has a great time and we love the people we meet. I can’t believe how much fun we all have and how quickly everyone picked up the basics. - Mark
 <img src="./Images/test.jpeg" alt= "Tom">
+</div>
 
 </body>
 </html>
