@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <!--
+        1. Large- no hamburger
+        2. Small- show hamburger
+        3.large no x
+        4. small show x
+        5. large links side by side
+        6. small links are stacked
+
+        javascript:
+        7. on hamburger click show the links
+        8. on x hide the links
+    -->
+    <style>
+        #hamicon {display:none; width: 50px;}
+        #close {display:none;}
+        #navlinks a {background-color: orange; margin:5px;}
+        @media only screen and (max-width: 800px) {
+            #hamicon {display: block;}
+            #close {display:block;}
+            #navlinks a {display: block;}
+            #navlinks {display:none;}
+            .myflexbox {display:flex;justify-content:space-between;}
+        }
+    </style>
+    <script>
+        function showNav (){
+            document.getElementById("navlinks").style.display="block";
+            document.getElementById("Close").style.display="block";
+        }
+        function hideNav (){
+            document.getElementById("navlinks").style.display="none";
+            document.getElementById("Close").style.display="none";
+        }
+    </script>
+</head>
+<body>
+    <div class="my flexbox">
+   <div><img scr="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" onclick="showNav();"></div> 
+    <div><p id="Close" onclick="hideNav();">X</p></div>
+    </div>
+    <div id="navlinks">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+</body>
+</html>
