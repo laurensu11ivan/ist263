@@ -1,7 +1,7 @@
 
 body{
     background-color: #C8C8C8;} 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     color: navy
 }
 .navigation{
@@ -29,8 +29,8 @@ color: #333;
 .naviagtion li a:hover {
     color: coral;
 }
-.hr{
-    height: 5px;
+hr{
+    height: 3px;
     border-width:0;
     background-color: navy;
 }
