@@ -6,10 +6,10 @@ h1, h2, h3, h4{
 }
 .navigation{
     list-style: none;
-    padding: 10px;
+    padding: 4px;
     border: 1px solid rgb(17, 12, 81);
     border-radius: 10px;
-    width: 150px;
+    width: 130px;
     float: left;
  
 }
@@ -28,4 +28,9 @@ color: #333;
 
 .naviagtion li a:hover {
     color: coral;
+}
+.hr{
+    height: 5px;
+    border-width:0;
+    background-color: navy;
 }
