@@ -28,9 +28,6 @@ text-decoration: none;
 color: #333;
 }
 
-.naviagtion li a:hover {
-    color: coral;
-}
 hr{
     height: 3px;
     border-width:0;
