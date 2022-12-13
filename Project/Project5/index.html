@@ -15,21 +15,30 @@
         float: right;
         margin: 20px }
   
+        @media only screen and (min-width: 1000px) { .testTom
+      {border: 2px solid #0000dd; 
+       float: right;
+      padding: 20px;
+        width: 40%;
+      overflow: auto;} }
       
-      .testTom {
-        border: 2px solid #0000dd; 
-        float: right;
-        padding: 20px;
+      @media only screen and (min-width: 1000px)
+  {.testMark {border: 2px solid #0000dd;
+    float:left;
+     padding: 20px;
         width: 40%;
-       overflow: auto;
-      }
-      .testMark {
-        border: 2px solid #0000dd;
-        float:left;
-        padding: 20px;
-        width: 40%;
-        overflow: auto;
-      }
+        overflow: auto;} }
+
+        @media only sceren and (max-width: 600px) {
+          .testMark {border: 2px solid #0000dd;}
+        }
+        @media only sceren and (max-width: 600px) {
+          .testTom {border: 2px solid #0000dd;}
+        }
+      
+
+    
+     
     </style>
     <link rel="stylesheet" href="styles.css">
    
