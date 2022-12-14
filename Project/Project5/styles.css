@@ -4,29 +4,26 @@ body{
 h1, h2, h3, h4, h5{
     color: navy;
     font-family: 'Oswald', sans-serif;
-    
 }
-.navigation{
-    list-style: none;
-    padding: 4px;
-    border: 1px solid rgb(17, 12, 81);
+
+@media only screen and (max-width: 600px) 
+{nav a { display:block;}
+span {display: none;}
+}
+@media only screen and (min-width: 600px)
+{ nav a{display:inline;}
+    span{display:inline}}
+
+nav a {
+    padding: 3px;
+    border: dotted 1px navy; 
     border-radius: 10px;
-    width: 130px;
-    float: left;
- 
+    width: 80px;
+    font-size: 15px;
+    line-height: 28px;
 }
-
-.navigation li{
-    font-size: 18px;
-    line-height: 2.4em;
-    border-bottom: dotted 1px #ddd;
-
-}
-
-.navigation li a{
-text-decoration: none;
-color: #333;
-}
+nav a:hover
+ {background-color:yellow}
 
 hr{
     height: 3px;
